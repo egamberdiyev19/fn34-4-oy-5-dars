@@ -310,12 +310,74 @@ if (num4_5 % 15 == 2) {
   res4 = "bolinmaydi"
 }
 res4 = num4_5 > 0 ? "bolinadi" :"bolinmaydi";
-// 5. Math methods ga oid masalalar (4 ta):
-let i5 = 0;
-while (i5 < 100) {
+// 6. For ga oid masalalar (15 ta):
+// 1-masala
+for (let i = 1; i <= 50; i++) {
+  console.log(i)
+}
+// 2-masala
+for (let i = 10; i >= 1; i--) {
+  console.log(i)
+}
+// 3-masala
+for (let i = 1; i <= 100; i+= 2) {
+  console.log(i)
+}
+// 4-masala
+for (let i = 2; i <= 50; i+= 2) {
+  console.log(i)
+}
+// 5-masala
+let sum6_5 = 0;
+for (let i = 1; i <= 100; i++) {
+  sum6_5 += i
+  console.log(sum6_5)
+}
+// 6-masala
+let num6_6 = +prompt("sonni kiriting")
+let sum6_6 = 1;
+for (let i = 1; i <= num6_6; i++) {
+  sum6_6*= i
+  console.log(sum6_6)
+}
+// 7-masala
+for (let i = 1; i <= 20; i++) {
+  console.log(i**2)
+}
+// 9-masala
+for (let i = 5; i <= 100; i+= 5) {
+  console.log(i)
+}
+// 10-masala
+let num6_10 = +prompt("musbat son kiriting")
+for (let i = 1; i <= num6_10; i++) {
+  console.log(i**3)
+}
+// 11-masala
+let sum6_11 = 0;
+for (let i = 2; i <= 100; i+= 2) {
+  sum6_11 += i;
+  console.log(sum6_10)
+}
+// 12-masala
+let sum6_12 = 0;
+for (let i = 3; i <= 50; i+= 3) {
+  sum6_12 ++;
+  if (sum6_12 ==3) {
+    console.log(i)
+  }
   
 }
-
+// 13-masala
+let num6_13 = +prompt("musbat son kiriting")
+let sum6_13 = 0;
+for (let i = 1; i <= num6_13; i++) {
+  sum6_13 += i;
+  console.log(sum6_13);
+  
+}
+// 14-masala
+for (let i = 1; i <+ 10 )
 
 
 
