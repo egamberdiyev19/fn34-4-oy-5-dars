@@ -377,7 +377,72 @@ for (let i = 1; i <= num6_13; i++) {
   
 }
 // 14-masala
-for (let i = 1; i <+ 10 )
+let sum6_14 = 0;
+for (let i = 1; i <= 10; i++ ) {
+  sum6_14 += i**2;
+  console.log(sum6_14)
+}
+// 7. Barcha mavzularni qamrab oluvchi masalalar (10 ta):
+// 1-masala
+let num7_1 = +prompt("sonni kiriting")
+let res = ''
+if (num7_1 % 3 == 0) {
+     res = "bolinadi"
+} else {
+  res = "bolinmaydi"
+}
+res = num7_1 % 3 == 0 ? "bolinadi" : "bolinmaydi" ;
+for (let i = 1; i <= num7_1; i++) {
+  console.log(i)
+}
+// 2-masala
+let num7_2 = +prompt("sonni kiriting")
+switch (num7_2) {
+  case 1:
+    console.log("yanvar")
+    break;
+    case 2:
+    console.log("fevral")
+    break;
+    case 3:
+    console.log("mart")
+    break;
+    case 4:
+    console.log("aprel")
+    break;
+    case 5:
+    console.log("may")
+    break;
+    case 6:
+    console.log("iyun")
+    break;
+    case 7:
+    console.log("iyul")
+    break;
+    case 8:
+    console.log("avgust")
+    break;
+    case 9:
+    console.log("sentabr")
+    break;
+    case 10:
+    console.log("octabr")
+    break;
+    case 11:
+    console.log("noyabr")
+    break;
+    case 12:
+    console.log("dekabr")
+    break;
+
+  default:
+    console.log("bunday oy yoq")
+    break;
+}
+for (let i = 1; i <= num7_2; i++) {
+  console.log(i)
+} 
+
 
 
 
